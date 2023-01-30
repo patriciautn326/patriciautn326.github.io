@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 1.2em;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(rgb(145, 234, 67), white);
+}
+p{
+    text-align: justify;
+}
+ul{
+    list-style: none;
+    display: block;
+}
+#contenedor{
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+}
+header h1{
+    font-size: 1.5em;
+    line-height: 60px;
+    color: blue;
+}
+nav{
+    height: 60px;
+    text-align: right;
+    padding-right: 30px;
+}
+nav li{
+    display: inline;
+}
+nav li a{
+    color: tomato;
+    margin-left: 20px;
+}
+nav li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+#principal{
+    width: 75%;
+    height: 500px;
+    margin-top: 10px;
+    margin-right: 5px;
+    float: left;
+}
+#principal h2{
+    font-size: 2em;
+    color: red;
+}
+article{
+    padding: 10px 10px;
+    border-top: 1px silver inset;
+    margin-top: 10px;
+}
+aside{
+    width: 22.9%;
+    height: 500px;
+    margin-top: 10px;
+    float: right;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+aside h3{
+    color: brown;
+}
+footer{
+    font-size: 0.7em;
+    color: rgb(70, 9, 131);
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    clear: both; 
+}
+
+
+
+
+

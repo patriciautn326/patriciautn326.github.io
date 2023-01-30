@@ -1,0 +1,58 @@
+*{
+    /* No toma en cuenta los bordes ni los margenes */
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(0deg, rgba(30, 30, 30, 0.5),
+     rgba(30, 30, 30, 0.7));
+}
+p{
+    text-align: justify;
+}
+header{
+    padding: 50px;
+    text-align: center;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: tomato;
+    font-weight: bold;
+}
+.filas{
+    display: flex;
+    flex-wrap: wrap;
+}
+aside{
+    flex: 25%;
+    padding: 20px;
+}
+section{
+    flex: 75%;
+    padding: 20px;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: gray;
+}
+/* para ajustar a dispositivos movil
+usar Media Query */
+@media screen and (max-width: 700px) {
+    nav, .filas{
+        flex-direction: column;
+    }
+}
+
