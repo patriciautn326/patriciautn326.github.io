@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{font-size: 2.9em;}
+h2{font-size: 2.5em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
+ul{list-style: none;}
+li{font-size: 1.25em;}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20 px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: tomato;
+}
+
+button:hover{
+    background-color: rgb(154, 154, 154);
+}
+
+.contenedor{
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(245, 245, 245);
+}
+
+.logo{
+    margin: 0px;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: maroon;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 2.5px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: blue;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../IMG/descarga.jpeg");
+    /*("../IMG/imagenes-espacio-2-1080x777.jpg")*/
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: white;
+}
+
+#hero button{
+    font-size: 1.75em;
+}
+
+#acerca .contenedor{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#productos{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+}
+
+#productos .contenedor{
+    padding: 150px 12px;
+}
+
+#productos h2{
+    margin-top: 0px;
+    font-size: 3em;
+}
+
+#productos p{
+    display: none;
+}
+
+#productos .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../IMG/smart.jpg");
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../IMG/lap.jpeg");
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../IMG/cel.jpeg");
+}
