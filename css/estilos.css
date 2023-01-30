@@ -4,7 +4,7 @@ body{
     /* justificar textos */
     text-align: justify;
     /* añadir imagen de fondo */
-    background: black url(../IMG/degra.jpg);
+    background: black url(../IMG/degra.jpeg);
     color:white;
 }
 
