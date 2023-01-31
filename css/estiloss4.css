@@ -1,0 +1,148 @@
+*{
+    margin:10px;
+    padding:10px;
+    box-sizing: border-box;
+}
+.contenedor{
+display:flex;
+flex-direction:column;
+
+}
+.header{
+    background:black;
+    display:flex;
+    flex-direction:column;
+    background: url("../imgs/dunas2400x1800.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.section{
+    background: black;
+    display:flex;
+}
+.footer{
+    background:black;
+    display:flex;
+    justify-content:center;
+}
+body{
+    color:white;
+}
+.contenedor .menu{
+    background:#6c819a;
+    display:flex;
+    flex-direction: row;
+    height:100px;
+    align-items:center;
+}
+.contenedor .logo{
+    /*background: #ea5455;*/
+    flex:1 1 auto;
+}
+.contenedor .nav{
+   /* background: #ea5455;*/
+    flex: 1  1 auto;
+}
+.contenedor .nav a{
+    color: white;
+}
+.contenedor .social{
+    /*background:#ea5455;*/
+    flex:1 1 auto;
+    display: flex;
+}
+.contenedor .principal{
+    height:70vh;
+    display:flex;
+    align-items: center;
+  /* background: #f07b3f;*/
+}
+.contenedor h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    font-size: 1.3em;
+    font-weight: 300;
+    font-weight: bold;
+    text-align: center;
+    /*background:#ff0460;*/
+}
+.section .articulos{
+    background: #4e4e6a;
+    flex:2 1 auto;
+    /*----------*/
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.section .articulo{
+    background:#1f6cb0;
+    flex: 1 1 40%;
+}
+.section .navegacion{
+    background:#70a3c4; 
+    flex:1 1 100%;
+}
+.section .derecho{
+    background:#f73f52;
+    flex: 1 1 auto;
+}
+.section .publicidad{
+    background:#ffea85;   
+}
+.footer .pie{
+    background:#ebaf2e;
+    width:300px;  
+}
+@media screen and (max-width:800px){
+    .section{
+        flex-direction:column;
+    }
+    .contenedor .menu{
+        flex-direction:column;
+        height: auto;
+        width:100%;
+    }
+    .contenedor .logo{
+        width:100%;
+    }
+    .contenedor .nav{
+        width:100%
+    }
+    .contenedor .social{
+        width:100%;
+    }
+    .aside{
+        display:flex;
+        justify-content:center;
+    }
+    .aside .publicidad{
+        width: 50%;
+    }
+    @media screen and (max-width:600px) {
+        .section .articulos{
+            flex-direction: column;
+        }
+    @media screen and (max-width: 500px) {
+        .aside{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .aside .publicidad{
+            width: auto;
+        }  
+    }   
+    }
+    .nav a{
+        text-decoration: none;
+    }
+    .nav a:hover{
+        text-decoration: underline;
+        color: tomato;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+
+}
